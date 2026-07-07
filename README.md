@@ -304,14 +304,11 @@ from ranking data alone, I separately measured the higher-ranked player's
 historical win rate directly (no model, just rank gap), across ~65,900
 matches:
 
-![Favorite win rate by rank gap](assets/rankdiff_winrate.png)
-*Higher-ranked player win rate rises steadily with rank gap.*
-
-![Favorite win rate by match format](assets/best_of_analysis.png)
-*Best-of-5 shows a consistently higher favorite win rate than best-of-3 at every gap.*
-
-![Favorite win rate by round](assets/round_analysis.png)
-*Win rate pattern by tournament round.*
+<p align="center">
+  <img src="assets/rankdiff_winrate.png" width="32%" />
+  <img src="assets/best_of_analysis.png" width="32%" />
+  <img src="assets/round_analysis.png" width="32%" />
+</p>
 
 Key patterns:
 - Win rate for the higher-ranked player rises steadily with rank gap, from
@@ -372,11 +369,6 @@ Base dataset: [ATP Tennis 2000–2023 (daily pull) on Kaggle](https://www.kaggle
 extended here with matches through mid-2026. Update the path in Phase 1 of
 the script (`data/atp_tennis.csv`) to point to your local copy — the raw CSV
 itself isn't included in this repo due to size and licensing.
-
-## Requirements
-
-```r
-install.packages(c("dplyr", "lubridate", "stringr", "tidyr", "xgboost", "ggplot2", "pROC"))
 ```
 
 ## Environment
