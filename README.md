@@ -165,7 +165,7 @@ the four tests below were built to check.
 | Active_Elo_Diff_P1 | 0.4491 | 0.3531 | 0.2844 |
 | Maturity_Diff_P1 | 0.0309 | 0.1445 | 0.1917 |
 | Momentum_Edge_P1 | 0.0306 | 0.1040 | 0.1429 |
-| Best_of_Numeric | 0.0117 | 0.0350 | 0.0633 |
+| Best.of_Numeric | 0.0117 | 0.0350 | 0.0633 |
 | Series_Weight | 0.0072 | 0.0204 | 0.0529 |
 | Round_Depth | 0.0047 | 0.0114 | 0.0411 |
 
@@ -311,7 +311,7 @@ matches:
 
 <p align="center">
   <img src="assets/rankdiff_winrate.png" alt="Favorite win rate by rank gap" width="32%" />
-  <img src="assets/best_of_analysis.png" alt="Favorite win rate by match format (best-of-3 vs best-of-5)" width="32%" />
+  <img src="assets/best.of_analysis.png" alt="Favorite win rate by match format (best-of-3 vs best-of-5)" width="32%" />
   <img src="assets/round_analysis.png" alt="Favorite win rate by tournament round" width="32%" />
 </p>
 
@@ -365,7 +365,7 @@ work, not just a modeling exercise:
 │   ├── segment_horse_race.png
 │   ├── odds_interval_sweep.png
 │   ├── rankdiff_winrate.png
-│   ├── best_of_analysis.png
+│   ├── best.of_analysis.png
 │   └── round_analysis.png
 └── README.md
 ```
