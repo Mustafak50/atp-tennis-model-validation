@@ -304,7 +304,14 @@ from ranking data alone, I separately measured the higher-ranked player's
 historical win rate directly (no model, just rank gap), across ~65,900
 matches:
 
-![Higher-ranked player win rate by rank gap, match format, and round](assets/favorite_win_rate_analysis.png)
+![Favorite win rate by rank gap](assets/rankdiff_winrate.png)
+*Higher-ranked player win rate rises steadily with rank gap.*
+
+![Favorite win rate by match format](assets/best_of_analysis.png)
+*Best-of-5 shows a consistently higher favorite win rate than best-of-3 at every gap.*
+
+![Favorite win rate by round](assets/round_analysis.png)
+*Win rate pattern by tournament round.*
 
 Key patterns:
 - Win rate for the higher-ranked player rises steadily with rank gap, from
