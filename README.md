@@ -1,3 +1,6 @@
+![License](https://img.shields.io/badge/license-MIT-blue)
+![R](https://img.shields.io/badge/R-4.5.3-blue)
+  
 # Can a Tennis Prediction Model Beat the Bookmakers?
 
 **A full ML pipeline — from messy raw ATP data to a calibrated, validated
@@ -10,7 +13,7 @@ that null result, reached through a deliberate, rigorous attempt to disprove
 my own promising-looking backtest rather than assumed, is the actual point of
 this project.
 
-https://mustafak50.github.io/atp-tennis-model-validation/
+📊 **[View the full interactive report →](https://mustafak50.github.io/atp-tennis-model-validation/)**
 
 ---
 
@@ -306,6 +309,9 @@ from ranking data alone, I separately measured the higher-ranked player's
 historical win rate directly (no model, just rank gap), across ~65,900
 matches:
 
+[![Favorite win rate by rank gap](https://github.com/Mustafak50/atp-tennis-model-validation/raw/main/assets/rankdiff_winrate.png)](assets/rankdiff_winrate.png)
+[![Favorite win rate by match format](https://github.com/Mustafak50/atp-tennis-model-validation/raw/main/assets/best_of_analysis.png)](assets/best_of_analysis.png)
+[![Favorite win rate by round](https://github.com/Mustafak50/atp-tennis-model-validation/raw/main/assets/round_analysis.png)](assets/round_analysis.png)
 <p align="center">
   <img src="assets/rankdiff_winrate.png" width="32%" />
   <img src="assets/best_of_analysis.png" width="32%" />
@@ -356,12 +362,14 @@ work, not just a modeling exercise:
 .
 ├── ModelT.R   # full pipeline: cleaning → features → model → validation
 ├── data/                          # (not included — see Data Source below)
-├── assets/                        # supporting figures referenced in this README
+├── assets/
 │   ├── atp_points_by_rank_tier.png
-│   ├── favorite_win_rate_analysis.png
 │   ├── feature_importance.png
 │   ├── segment_horse_race.png
-│   └── odds_interval_sweep.png
+│   ├── odds_interval_sweep.png
+│   ├── rankdiff_winrate.png
+│   ├── best_of_analysis.png
+│   └── round_analysis.png
 └── README.md
 ```
 
