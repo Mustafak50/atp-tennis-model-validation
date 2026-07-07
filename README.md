@@ -309,13 +309,10 @@ from ranking data alone, I separately measured the higher-ranked player's
 historical win rate directly (no model, just rank gap), across ~65,900
 matches:
 
-[![Favorite win rate by rank gap](https://github.com/Mustafak50/atp-tennis-model-validation/raw/main/assets/rankdiff_winrate.png)](assets/rankdiff_winrate.png)
-[![Favorite win rate by match format](https://github.com/Mustafak50/atp-tennis-model-validation/raw/main/assets/best_of_analysis.png)](assets/best_of_analysis.png)
-[![Favorite win rate by round](https://github.com/Mustafak50/atp-tennis-model-validation/raw/main/assets/round_analysis.png)](assets/round_analysis.png)
 <p align="center">
-  <img src="assets/rankdiff_winrate.png" width="32%" />
-  <img src="assets/best_of_analysis.png" width="32%" />
-  <img src="assets/round_analysis.png" width="32%" />
+  <img src="assets/rankdiff_winrate.png" alt="Favorite win rate by rank gap" width="32%" />
+  <img src="assets/best_of_analysis.png" alt="Favorite win rate by match format (best-of-3 vs best-of-5)" width="32%" />
+  <img src="assets/round_analysis.png" alt="Favorite win rate by tournament round" width="32%" />
 </p>
 
 Key patterns:
