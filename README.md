@@ -311,7 +311,7 @@ matches:
 
 <p align="center">
   <img src="assets/rankdiff_winrate.png" alt="Favorite win rate by rank gap" width="32%" />
-  <img src="assets/best.of_analysis.png" alt="Favorite win rate by match format (best-of-3 vs best-of-5)" width="32%" />
+  <img src="assets/best_of_analysis.png" alt="Favorite win rate by match format (best-of-3 vs best-of-5)" width="32%" />
   <img src="assets/round_analysis.png" alt="Favorite win rate by tournament round" width="32%" />
 </p>
 
