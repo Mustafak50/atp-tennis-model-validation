@@ -52,6 +52,10 @@ them.
 
 ## Data
 
+Data source:
+https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull/data
+Data file can be read in files named atp_tennis.csv
+
 ATP men's tour match-level data (2000–2026) including match results, scores,
 player rankings, ranking points, tournament metadata, and bookmaker odds.
 
